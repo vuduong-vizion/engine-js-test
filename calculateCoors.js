@@ -15,22 +15,22 @@ const calcAngleBetweenVectors = (a, b) => {
   const cosAngle = cosTwoVectors(a, b);
   let angle = radiansToDegrees(Math.acos(cosAngle));
   if (b.x > 0) angle = 360 - angle;
-  return angle.toFixed(1);
+  return angle.toFixed(2);
 };
 
+console.log(
+  calcAngleBetweenVectors(
+    { x: 0, y: 0, z: -500 },
+    { x: -19.64505350383555, y: 0, z: -500 }
+  )
+);
+
 // console.log(
-//   calcAngleBetweenVectors(
+//   cosTwoVectors(
 //     { x: 0, y: 0, z: -500 },
 //     { x: -207.1067811865475, y: 0, z: -500 }
 //   )
 // );
-
-// console.log(
-//     cosTwoVectors(
-//       { x: 0, y: 0, z: -500 },
-//       { x: -207.1067811865475, y: 0, z: -500 }
-//     )
-//   );
 
 const calcCoordinate = (angle) => {
   var pi = Math.PI;
@@ -43,4 +43,4 @@ const calcCoordinate = (angle) => {
   return -bx;
 };
 
-console.log("X Coordinate", calcCoordinate(22.5));
+console.log("X Coordinate", calcCoordinate(45));
