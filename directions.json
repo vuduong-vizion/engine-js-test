@@ -1,0 +1,148 @@
+{
+  "directions": [
+    {
+      "label": "East",
+      "height": "14px",
+      "position": [
+        0,
+        0,
+        -500
+      ]
+    },
+    {
+      "label": "East-East-North",
+      "height": "14px",
+      "position": [
+        -500,
+        0,
+        -207.1067811865475
+      ]
+    },
+    {
+      "label": "East-North",
+      "height": "14px",
+      "position": [
+        -500,
+        0,
+        -500
+      ]
+    },
+    {
+      "label": "East-North-North",
+      "height": "14px",
+      "position": [
+        -207.1067811865475,
+        0,
+        -500
+      ]
+    },
+    {
+      "label": "North",
+      "height": "14px",
+      "position": [
+        -500,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "North-North-West",
+      "height": "14px",
+      "position": [
+        -500,
+        0,
+        207.1067811865475
+      ]
+    },
+    {
+      "label": "West-North",
+      "height": "14px",
+      "position": [
+        -500,
+        0,
+        500
+      ]
+    },
+    {
+      "label": "West-West-North",
+      "height": "14px",
+      "position": [
+        -207.1067811865475,
+        0,
+        500
+      ]
+    },
+    {
+      "label": "West-North",
+      "height": "14px",
+      "position": [
+        0,
+        0,
+        500
+      ]
+    },
+    {
+      "label": "West-West-South",
+      "height": "14px",
+      "position": [
+        207.1067811865475,
+        0,
+        500
+      ]
+    },
+    {
+      "label": "West-South",
+      "height": "14px",
+      "position": [
+        500,
+        0,
+        500
+      ]
+    },
+    {
+      "label": "South-South-West",
+      "height": "14px",
+      "position": [
+        500,
+        0,
+        207.1067811865475
+      ]
+    },
+    {
+      "label": "South",
+      "height": "14px",
+      "position": [
+        500,
+        0,
+        0
+      ]
+    },
+    {
+      "label": "South-South-East",
+      "height": "14px",
+      "position": [
+        500,
+        0,
+        -207.1067811865475
+      ]
+    },
+    {
+      "label": "East-South",
+      "height": "14px",
+      "position": [
+        500,
+        0,
+        -500
+      ]
+    },
+    {
+      "label": "East-East-South",
+      "height": "14px",
+      "position": [
+        207.1067811865475,
+        0,
+        -500
+      ]
+    }
+  ]
+}
